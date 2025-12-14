@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-PYTHON := /opt/homebrew/bin/python3 # TODO: add your python path
+PYTHON := $(shell which python)
 VENV_DIR := .venv
 ACTIVATE_VENV := source $(VENV_DIR)/bin/activate
 
